@@ -1,0 +1,264 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+h1, h2,	h3, h4, h5, h6{
+	font-family: Open+Sans;
+	font-size: ;
+}
+
+body{
+	font-family: Poppins;
+	font-size: 14px;
+	line-height: 24px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+.first_flag{
+	position: absolute;
+	width: 800px;
+	height: 480px;
+	background-color: #006A4D;
+	top: 50%;
+	left: 50%;
+	transform: translate(-110%, -65%);
+}
+
+.second_flag{
+	position: absolute;
+	width: 800px;
+	height: 480px;
+	background-color: #006A4D;
+	top: 50%;
+	left: 50%;
+	transform: translate(10%, -65%);
+}
+
+.child01{
+	position: relative;
+	width: 270px;
+	height: 270px;
+	border-radius: 100%;
+	background-color: #F4253F;
+	top: 100px;
+	left: 222px;
+}
+
+.childflag{
+	position: relative;
+	width: 270px;
+	height: 270px;
+	border-radius: 100%;
+	background-color: transparent;
+	top: -171px;
+	left: 221px;
+}
+
+.flagidentification{
+	text-align: center;
+	padding: 10px;
+	transform: translateY(40px);
+
+}
+
+.smicons{
+	text-align: center;
+	padding: 5px;
+	transform: translateY(580px);
+}
+
+.PracticeIcons{
+	display: block;
+	text-align: center;
+}
+
+.smiconset{
+	widows: ;
+	display: block;
+	text-align: center;
+	padding: 30px 0px 0px;
+}
+
+.smiconset li{
+	list-style: none;
+	display: inline-block;
+}
+
+.smiconset li a{
+    display: block;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.smiconset li a .fa-facebook{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    color:  #1877f2;
+    font-size: 40px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.smiconset li a .fa-facebook:hover{
+	background-color: #1877f2;
+	color: white;
+}
+
+.smiconset li a .fa-facebook:focus{
+	background-color: black;
+	color: #1877f2;
+}
+
+.smiconset li a .fa-twitter{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    color:  #1da1f2;
+    font-size: 40px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.smiconset li a .fa-twitter:hover{
+	background-color: #1da1f2;
+	color: white;
+}
+
+.smiconset li a .fa-twitter:focus{
+	background-color: black;
+	color: #1877f2;
+}
+
+.smiconset li a .fa-youtube{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    color:  #ff0000;
+    font-size: 40px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.smiconset li a .fa-youtube:hover{
+	background-color: #ff0000;
+	color: white;
+}
+
+.smiconset li a .fa-youtube:focus{
+	background-color: black;
+	color: #1877f2;
+}
+
+.smiconset li a .fa-linkedin{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    color:  #00a0dc;
+    font-size: 40px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.smiconset li a .fa-linkedin:hover{
+	background-color: #00a0dc;
+	color: white;
+}
+
+.smiconset li a .fa-linkedin:focus{
+	background-color: black;
+	color: #1877f2;
+}
+
+.smiconset li a .fa-twitch{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    color:  #1877f2;
+    font-size: 40px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.smiconset li a .fa-twitch:hover{
+	background-color: #1877f2;
+	color: white;
+}
+
+.smiconset li a .fa-twitch:focus{
+	background-color: black;
+	color: #1877f2;
+}
+
+.smiconset li a .fa-github{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    color:  #6cc644;
+    font-size: 40px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.smiconset li a .fa-github:hover{
+	background-color: #6cc644;
+	color: white;
+}
+
+.smiconset li a .fa-github:focus{
+	background-color: black;
+	color: #1877f2;
+}
+
+.smiconset li a .fa-instagram{
+    display: block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: white;
+    color:  #e1306c;
+    font-size: 40px;
+    border-radius: 100%;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.smiconset li a .fa-instagram:hover{
+	background-color: #e1306c;
+	color: white;
+}
+
+.smiconset li a .fa-instagram:focus{
+	background-color: black;
+	color: black;
+}
